@@ -1,0 +1,91 @@
+/* ************************* resets ******************************* */
+
+h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul, nav ol {
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ************************* header styling ***************************** */
+
+h1{
+    font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+h2{
+    font-family: "Belleza", serif;
+    font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/* ************************* banner ***************************** */
+
+#banner {
+    width: 1100px;
+    height: 250px;
+    background-color: rgb(211, 234, 244);
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* ************************* sections ***************************** */
+
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+    line-height: 1.3em;
+}
+
+section{
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+}
+
+/* ************************* footer ***************************** */
+
+footer {
+    font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+}
