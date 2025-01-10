@@ -22,6 +22,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   padding: 10px;
+  color: #061D79;
 }
 
 h2{
@@ -41,10 +42,8 @@ p{
 #banner {
     width: 1100px;
     height: 250px;
-    background-color: rgb(211, 234, 244);
-    /* display: block;
-    justify-content: center;
-    align-items: center; */
+    background-color: #87750B;
+    margin: auto;
 }
 
 /* ************************* sections ***************************** */
@@ -65,9 +64,18 @@ ul li {
 }
 
 section{
-    background-color: bisque;
+    background-color: #ABCDEC;
     margin: 10px;
     padding: 10px;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 960px;
+    margin: auto;
+    gap: 20px;
+    background-color: #F0EAC8;
 }
 
 main{
@@ -89,3 +97,24 @@ footer a {
     color: black;
     padding: 10px;
 }
+
+
+
+
+
+/* ************************* colors palet? ***************************** */
+
+/* p {
+    color: #061D79;
+    color: #ABCDEC;
+    color: #F0EAC8;
+    color: #87750B;
+    color: #F0E201;
+    color: #8E0512;
+    dark blue
+    light blue
+    creame
+    olive
+    yellow
+    red
+} */
