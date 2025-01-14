@@ -29,12 +29,19 @@ h1{
 }
 
 h2{
-    font-family: "Belleza", serif;
+    font-family: "Alatsi", serif;
     font-weight: 400;
   font-style: normal;
   padding: 10px;
   text-align: center;
-  padding-top: 60px;
+}
+
+#sub {
+    padding-top: 60px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
 }
 
 p{
@@ -48,7 +55,6 @@ p{
     width: 1100px;
     height: 250px;
     background-image: url(images/header.jpg);
-    margin: auto;
 }
 
 /* ************************* sections ***************************** */
@@ -56,7 +62,7 @@ p{
 ul li a{
     text-decoration: none;
     list-style: none;
-    font-family: "Alatsi", serif;
+    font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
   padding: 10px;
@@ -80,31 +86,80 @@ body{
     max-width: 960px;
     margin: auto;
     gap: 20px;
-    background-color: #F0EAC8;
+    background-color: #efe5bb;
 }
 
 main{
     display: flex;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ************************* footer ***************************** */
 
 footer {
-    font-family: "Alatsi", serif;
-  font-weight: 400;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 300px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  animation: fish 3s infinite;
+}
+
+@keyframes fish {
+    0% {
+      background-image: url('images/fish.jpg');
+    }
+    5% {
+      background-image: url('images/fishupone.jpg');
+    }
+    10% {
+      background-image: url('images/fishuptwo.jpg');
+    }
+    15% {
+        background-image: url('images/fishupone.jpg');
+    }    
+    20% {
+        background-image: url('images/fish.jpg');
+    }
+    25% {
+        background-image: url('images/fishdownone.jpg');
+    }
+    30% {
+        background-image: url('images/fishdowntwo.jpg');
+    }
+    35% {
+        background-image: url('images/fishdownone.jpg');
+    }    
+    40% {
+        background-image: url('images/fish.jpg');
+    }
+    100% {
+        background-image: url('images/fish.jpg');
+    }
+  }
+
+footer p {
+    font-family: "Poppins", serif;
+    font-weight: 200;
   font-style: normal;
-  padding: 10px;
 }
 
 footer a {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+  font-style: normal;
     color: black;
     padding: 10px;
 }
 
-
+a:hover {
+    font-weight: 700;
+}
 
 
 
