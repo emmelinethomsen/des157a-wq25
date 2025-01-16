@@ -43,16 +43,18 @@ h1 {
 /* ************************* banner ***************************** */
 
 #banner {
-    margin: auto;
     text-align: center; 
     width: fit-content;
+    margin: 0 auto;
 }
 
 header {
     width: 1100px;
     height: 250px;
     background-image: url(images/header.jpg);
-    background-position: center;
+    /* background-position: center; */
+    background-size: contain; /* Ensure the image fits within the header */
+    background-repeat: no-repeat;
 }
 
 /* ************************* sections ***************************** */
@@ -102,11 +104,14 @@ main {
 /* ************************* footer ***************************** */
 
 footer {
-    padding: 50px 100px 300px;
+    padding: 50px 100px 150px;
     text-align: center;
+    line-height: 1.4em;
     background-size: cover;
     background-position: center;
-    animation: fish 10s infinite;
+    background-size: 600px 295px;
+    background-repeat: no-repeat;
+    animation: fish 7s infinite;
 }
 
 footer p {
@@ -130,28 +135,28 @@ a:hover {
     0% {
       background-image: url('images/fish.jpg');
     }
+    1% {
+      background-image: url('images/fishuptwo.jpg');
+    }
     2% {
       background-image: url('images/fishupone.jpg');
     }
-    4% {
-      background-image: url('images/fishuptwo.jpg');
-    }
-    6% {
-        background-image: url('images/fishupone.jpg');
+    3% {
+        background-image: url('images/fishuptwo.jpg');
     }    
-    8% {
+    4% {
         background-image: url('images/fish.jpg');
     }
-    10% {
+    5% {
         background-image: url('images/fishdownone.jpg');
     }
-    12% {
+    6% {
         background-image: url('images/fishdowntwo.jpg');
     }
-    14% {
+    7% {
         background-image: url('images/fishdownone.jpg');
     }    
-    16% {
+    8% {
         background-image: url('images/fish.jpg');
     }
     100% {
