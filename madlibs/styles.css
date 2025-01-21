@@ -76,7 +76,7 @@ article {
     width: 1000px;
 }
 
-#sketch {
+.sketch {
     margin: 7px;
     padding: 10px;
     border-radius: 15px;
@@ -105,7 +105,7 @@ article p {
     margin: auto;
 }
 
-#sketch p {
+.sketch p {
     line-height: 1.5em;
     padding: 10px;
     font-size: 20px;
