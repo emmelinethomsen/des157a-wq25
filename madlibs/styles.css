@@ -1,0 +1,165 @@
+/* ************************* resets ******************************* */
+
+h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul, nav ol {
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ************************* header styling ***************************** */
+
+h1, h2 {
+    font-family: "Alatsi", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
+
+h1 {
+    color: #061D79;
+    font-size: 44px;
+    text-align: center;
+}
+
+/* ************************* banner ***************************** */
+
+#banner {
+    text-align: center; 
+    width: fit-content;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+
+#words{
+    align-self: center; 
+}
+
+/* ************************* articles ***************************** */
+
+ul li {
+    list-style: none;
+    line-height: 1.8em;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+/* article:hover {
+    background-color: #d7ebff;
+ } */
+
+article {
+    background-color: #a1c5e6;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid rgb(71, 65, 43);
+    transition: 1s ease-in-out;
+    width: 1000px;
+}
+
+#sketch {
+    margin: 7px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid rgb(71, 65, 43);
+}
+
+#journalpage {
+    max-width: fit-content;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+    background-color: #efe5bb;
+}
+
+article p {
+    line-height: 1.5em;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 800px;
+    align-items: center;
+    margin: auto;
+}
+
+#sketch p {
+    line-height: 1.5em;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+    margin: auto;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+}
+
+h3{
+    font-family: "Alatsi", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    font-size: 22px;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+article p{
+    font-family: "Poppins", serif;
+    font-weight: 200;
+}
+
+/* ************************* footer ***************************** */
+
+footer {
+    padding: 50px 100px 150px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+footer p {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    font-weight: 700;
+}    
