@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS experiment 2</title>
+</head>
+<body>
+    <h1>More JS Experimentation with Functions and DOM</h1>
+
+    <label for="color">Select Your Color</label> 
+    <select name="color" id="color">
+        <option value="blue">blue</option> 
+        <option value="gray">gray</option> 
+        <option value="pink">pink</option>
+    </select>
+
+    <article>
+        <p class="emphasis">congrats, you chose a good color</p>
+        <p>it would be even better if you chose green</p>
+    </article>
+
+    <script>
+        //my program asks the users name, then gives a random fruit suggestion. i also have a loop of numbers. 
+
+        document.querySelector('.emphasis').style.color = "red";
+
+        var yourName = prompt("hello! whats your name?", '');
+
+        var fruits = ["apple", "banana", "cherry", "orange"]; 
+        function randomInt ( min, max ){
+            var numOfValues = max - min + 1;
+            var randomNum = Math. random () ;
+            var randomVal = randomNum * numOfValues;
+            var roundedRandomVal = Math.floor (randomVal);
+            var finalNum = min + roundedRandomVal;
+            return finalNum;
+            }
+            console. log ( fruits[randomInt ( 0, 3 )] );
+
+        
+        console.log(`${yourName}, here's a fruit suggestion for you: ${fruits[randomInt(0, fruits.length - 1)]}`);
+
+
+        function printNumbers(n) {
+            for (let i = 1; i <= n; i++) {
+            console.log(i); 
+            }
+        }
+
+    printNumbers(5);
+
+
+
+
+    </script>
+
+
+</body>
+</html>
