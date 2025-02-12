@@ -9,44 +9,93 @@
 
     <link href="styles.css" rel="stylesheet">
 
+    <script src="script.js" defer></script> 
+
 
 </head>
 <body>
 
     <header>
-        <h1>The Tale of the Red Door Duplex War</h1>
-        <h2>based off a (somewhat) true story</h2>
-        <p>written and designed by emmeline thomsen</p>
-        <button>next</button>
+        <div id="container">
+            <h1>The Tale of the Red Door Duplex War</h1>
+            <h2>based off a (somewhat) true story</h2>
+            <p>written and designed by emmeline thomsen</p>
+            <button>click here to open letter</button>
+        </div>
     </header>
 
     <main>
         
         <article id="second">
-            <p>Dear Resident,</p>
-            <p>Please answer the following survey questions to evaluate your future housing status.</p>
+            <div class="intro">
+                <h2>Dear Resident,</h2>
+                <p>Please answer the following survey questions to evaluate your future housing status.</p>
+            </div>
 
             <form id="myform">
-                <label for="time">a time of day: </label><input type="text" id="time" required>
-                <label for="object1">a household object: </label><input type="text" id="object1" required>
-                <label for="object2">another object: </label><input type="text" id="object2" required>
-                <label for="emotion">an emotion: </label><input type="text" id="emotion" required>
-                <label for="object3">another object (last one!): </label><input type="text" id="object3" required>
-                <label for="adjective">an adjective: </label><input type="text" id="adjective" required>
-                <label for="verbing">a verb endign in -ing: </label><input type="text" id="verbing" required>
-                <label for="verb">a verb: </label><input type="text" id="verb" required>
-                <label for="animal">an animal: </label><input type="text" id="animal" required>
-                <label for="clothing">an item of clothing: </label><input type="text" id="clothing" required>
+                <div>
+                    <label for="time">a time of day: </label>
+                    <input type="text" id="time" required>
+                </div>
+                <div>
+                    <label for="object1">a household object: </label>
+                    <input type="text" id="object1" required>
+                </div>
+                <div>
+                    <label for="object2">another object: </label>
+                    <input type="text" id="object2" required>
+                </div>
+                <div>
+                    <label for="emotion">an emotion: </label>
+                    <input type="text" id="emotion" required>
+                </div>
+                <div>
+                    <label for="object3">another object (last one!): </label>
+                    <input type="text" id="object3" required>
+                </div>
+                <div>
+                    <label for="adjective">an adjective: </label>
+                    <input type="text" id="adjective" required>
+                </div>
+                <div>
+                    <label for="verbing">a verb endign in -ing: </label>
+                    <input type="text" id="verbing" required>
+                </div>
+                <div>
+                    <label for="verb">a verb: </label>
+                    <input type="text" id="verb" required>
+                </div>
+                <div>
+                    <label for="animal">an animal: </label>
+                    <input type="text" id="animal" required>
+                </div>
+                <div>
+                    <label for="clothing">an item of clothing: </label>
+                    <input type="text" id="clothing" required>
+                </div>
 
-                <input type="submit">
+                <input type="submit" id="submitbtn">
+
             </form>
 
-            <p>from,</p>
-            <p>Management at Red Door Duplex</p>
+            <div class="intro">
+                <p>from,</p>
+                <p>Management at Red Door Duplex</p>
+            </div>
         </article>
 
 
-        <article id="third">
+        <p id="errorText"></p>
+
+        <section id="overlay" class="hidden">
+            <article>
+                <div id="madlib"></div>
+                <button class="close">prank again!</button>
+            </article>
+        </section>
+
+
+        <!-- <article id="third">
             <h2>Notice of Eviction</h2>
 
             <p>Due to the following events, the residents of 1020A and 1020B are no longer eligible to renew their lease the following year. The issues are as follows:</p>
@@ -61,7 +110,7 @@
 
             <p>From,</p>
             <p>Managment at Red Door Duplex</p>
-        </article>
+        </article> -->
 
 
 

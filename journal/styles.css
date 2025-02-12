@@ -114,6 +114,27 @@ h3{
     font-size: 22px;
 }
 
+h4{
+    font-family: "Alatsi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+}
+
+article img {
+margin: auto;
+}
+
+figcaption{
+    font-size: 16px;
+    margin: auto;
+    font-family: "Poppins", serif;
+    margin-left: 190px;
+    padding: 10px;
+}
+
 article h2 {
     font-size: 30px;
 }
