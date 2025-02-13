@@ -11,18 +11,12 @@
 
     <script src="script.js" defer></script> 
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital@0;1&family=Rubik+Mono+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
-
-    <header>
-        <div id="container">
-            <h1>The Tale of the Red Door Duplex War</h1>
-            <h2>based off a (somewhat) true story</h2>
-            <p>written and designed by emmeline thomsen</p>
-            <button>click here to open letter</button>
-        </div>
-    </header>
 
     <main>
         
@@ -35,48 +29,50 @@
             <form id="myform">
                 <div>
                     <label for="time">a time of day: </label>
-                    <input type="text" id="time" required>
+                    <input type="text" id="time">
                 </div>
                 <div>
                     <label for="object1">a household object: </label>
-                    <input type="text" id="object1" required>
+                    <input type="text" id="object1">
                 </div>
                 <div>
                     <label for="object2">another object: </label>
-                    <input type="text" id="object2" required>
+                    <input type="text" id="object2">
                 </div>
                 <div>
                     <label for="emotion">an emotion: </label>
-                    <input type="text" id="emotion" required>
+                    <input type="text" id="emotion">
                 </div>
                 <div>
                     <label for="object3">another object (last one!): </label>
-                    <input type="text" id="object3" required>
+                    <input type="text" id="object3">
                 </div>
                 <div>
                     <label for="adjective">an adjective: </label>
-                    <input type="text" id="adjective" required>
+                    <input type="text" id="adjective">
                 </div>
                 <div>
                     <label for="verbing">a verb endign in -ing: </label>
-                    <input type="text" id="verbing" required>
+                    <input type="text" id="verbing">
                 </div>
                 <div>
                     <label for="verb">a verb: </label>
-                    <input type="text" id="verb" required>
+                    <input type="text" id="verb">
                 </div>
                 <div>
                     <label for="animal">an animal: </label>
-                    <input type="text" id="animal" required>
+                    <input type="text" id="animal">
                 </div>
                 <div>
                     <label for="clothing">an item of clothing: </label>
-                    <input type="text" id="clothing" required>
+                    <input type="text" id="clothing">
                 </div>
 
                 <input type="submit" id="submitbtn">
 
             </form>
+
+            <p id="errorText"></p>
 
             <div class="intro">
                 <p>from,</p>
@@ -85,32 +81,21 @@
         </article>
 
 
-        <p id="errorText"></p>
 
         <section id="overlay" class="hidden">
             <article>
+                <header>
+                    <div id="container">
+                        <h1>The Tale of the Red Door Duplex War</h1>
+                        <h2>based off a (somewhat) true story</h2>
+                        <p>written and designed by emmeline thomsen</p>
+                    </div>
+                </header>
                 <div id="madlib"></div>
                 <button class="close">prank again!</button>
             </article>
         </section>
 
-
-        <!-- <article id="third">
-            <h2>Notice of Eviction</h2>
-
-            <p>Due to the following events, the residents of 1020A and 1020B are no longer eligible to renew their lease the following year. The issues are as follows:</p>
-
-            <p>On the 9th of January, 2025 at <span id="timeday">_____</span>[time of day] the residents at 1020B began the Great War of the Red Door Duplexes. They plotted and planned, and ultimately decided to swap our <span id="houseobj">_____</span>[household object] with their <span id="normobj">_____</span>[object]. In the following morning the 1020A residents awoke to see their updated house and were overcome with <span id="emo">_____</span>[emotion].</p>
-
-            <p>Then on January 11th, 2025, duplex A responded to the actions of their neighbors since their <span id="secondobj">_____</span>[object] was too <span id="adj">_____</span>[adjective]. With some <span id="ving">_____</span>[verb ending in -ing] around, the roommates of duplex A succeeded to <span id="verbed">_____</span>[verb] duplex B’s [object].</p>
-
-            <p>The final straw occurred on January 13, 2025 when the war reached a new level and 1020B unleashed a surprise: a <span id="animalz">_____</span>[animal] wearing a <span id="atire">_____</span>[piece of clothing]. They rampaged through the duplex, leaving destruction in their wake.</p>
-
-            <p>For the above listed events, the individuals currently residing in 1020A and 1020B will not be allowed to renew their leases the following year, and we will not be providing a letter of reference.</p>
-
-            <p>From,</p>
-            <p>Managment at Red Door Duplex</p>
-        </article> -->
 
 
 
