@@ -2,7 +2,6 @@ body {
     background-image: url(images/bg.png);
     color: #d4af37;
     font-family: "Tilt Warp", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -59,14 +58,15 @@ h1 {
 }
 
 .card {
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 290px;
     background-color: #e0d2b4;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2em;
     border-radius: 10px;
+    margin-top: 120px;
 }
 
 .scoreboard {
@@ -75,8 +75,30 @@ h1 {
     margin: 20px 0;
 }
 
-.player-score {
+.player-score1 {
     text-align: center;
+    background-image: url(images/playone.png);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
+
+.player-score2 {
+    text-align: center;
+    background-image: url(images/playtwo.png);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
 }
 
 .score {
@@ -92,13 +114,37 @@ button {
     background-color: #a8a878;
     border: none;
     padding: 10px 20px;
-    margin: 5px;
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center items horizontally */
+    margin: auto;
+    margin-top: 25px;
 }
 
 .exit {
-    background-color: #6b3e26;
+    background-color: #3b451a;
     color: white;
+}
+
+.info{
+    background-color: #a8a878;
+    border-radius: 10px;
+    padding: 30px;
+    color: #3b451a;
+    line-height: 1.4em;
+    position: absolute;
+    bottom: 300000px;
+    left: 30000000px;
+}
+
+.info h2{
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 58px;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
